@@ -1,0 +1,43 @@
+$green: #3eb575;
+$yellow: #f0b73a;
+$gray1: #f2f2f2;
+$gray2: #e3e3e3;
+$gray3: #878787;
+$black: #151515;
+$font-small: 30rpx;
+$font-big: 54rpx;
+$font-middle: 40rpx;
+.font-small {
+	font-size: $font-small;
+}
+.font-big {
+	font-size: $font-big;
+}
+.font-middle {
+	font-size: $font-middle;
+}
+.color-green {
+	color: $green;
+}
+.line {
+	width: 100%;
+	height: 16rpx;
+	background: #fafafa;
+}
+.flex-between {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.full-button {
+	width:50%;
+	margin: 0 auto;
+	margin-top: 30rpx;
+	height: 80rpx;
+	border-radius: 40rpx;
+	background: $green;
+	font-size: 32rpx;
+	text-align: center;
+	line-height: 80rpx;
+	color: white;
+}

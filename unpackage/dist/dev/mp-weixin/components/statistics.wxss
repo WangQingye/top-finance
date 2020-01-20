@@ -1,0 +1,300 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+@font-face {
+  font-family: 'iconfont';  /* project id 1605316 */
+  src: url('https://at.alicdn.com/t/font_1605316_jzesxneew5s.eot');
+  src: url('https://at.alicdn.com/t/font_1605316_jzesxneew5s.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_1605316_jzesxneew5s.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_1605316_jzesxneew5s.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_1605316_jzesxneew5s.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_1605316_jzesxneew5s.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-editor:before {
+  content: "\E6F6";
+}
+.icon-auto:before {
+  content: "\E745";
+}
+.icon-form:before {
+  content: "\E753";
+}
+.icon-integral:before {
+  content: "\E754";
+}
+.icon-suggest:before {
+  content: "\E767";
+}
+.icon-trust:before {
+  content: "\E76A";
+}
+.icon-discounts:before {
+  content: "\E771";
+}
+.font-small {
+  font-size: 30rpx;
+}
+.font-big {
+  font-size: 54rpx;
+}
+.font-middle {
+  font-size: 40rpx;
+}
+.color-green {
+  color: #3eb575;
+}
+.line {
+  width: 100%;
+  height: 16rpx;
+  background: #fafafa;
+}
+.flex-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.full-button {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 30rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  background: #3eb575;
+  font-size: 32rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color: white;
+}
+.statistics {
+  background: #3eb575;
+  width: 750rpx;
+}
+.statistics .top {
+    padding: 30rpx 50rpx 20rpx 50rpx;
+    background: #3eb575;
+    color: white;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+}
+.statistics .top .top-text {
+      color: white;
+      border-bottom: 4rpx solid white;
+      font-size: 30rpx;
+      padding-bottom: 20rpx;
+      width: auto;
+      display: block;
+}
+.statistics .middle {
+    background: white;
+    border-radius: 20rpx 20rpx 0 0;
+    padding: 0 50rpx;
+    padding-top: 66rpx;
+    padding-bottom: 66rpx;
+    text-align: center;
+}
+.statistics .middle .midder-date {
+      padding: 0 22rpx;
+      width: 400rpx;
+      height: 60rpx;
+      margin: 0 auto;
+      font-size: 30rpx;
+      color: #151515;
+      background: #f7f7f7;
+      border-radius: 10rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.statistics .middle .midder-date .icon-text {
+        color: #878787;
+        margin: 0 10rpx;
+        line-height: 60rpx;
+        font-size: 22rpx;
+}
+.statistics .middle .money {
+      margin-top: 50rpx;
+}
+.statistics .middle .money .title {
+        color: #3eb575;
+        font-size: 30rpx;
+}
+.statistics .middle .money .text-1 {
+        vertical-align: top;
+        font-weight: bold;
+        color: #3eb575;
+        font-size: 54rpx;
+        margin-top: 20rpx;
+        margin-bottom: 20rpx;
+}
+.statistics .middle .money .text-1 text {
+          vertical-align: top;
+          font-size: 30rpx;
+}
+.statistics .middle .money .text-2 {
+        font-size: 30rpx;
+        color: #878787;
+}
+.statistics .bottom {
+    background: white;
+    padding: 0 50rpx;
+    padding-top: 40rpx;
+}
+.statistics .bottom .title {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-bottom: 10rpx;
+}
+.statistics .bottom .title .text {
+        font-size: 34rpx;
+        color: #151515;
+}
+.statistics .bottom .title .option {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+}
+.statistics .bottom .title .option .single {
+          text-align: center;
+          width: 86rpx;
+          height: 50rpx;
+          line-height: 50rpx;
+          font-size: 24rpx;
+          border-radius: 25rpx;
+          background: #ededed;
+          color: #878787;
+}
+.statistics .bottom .title .option .active {
+          color: #3eb575;
+          border: 1rpx solid #3eb575;
+          background: #ebf7f1;
+}
+.statistics .bottom .types {
+      padding-bottom: 60rpx;
+}
+.statistics .bottom .types .single-type {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        height: 100rpx;
+        font-size: 24rpx;
+}
+.statistics .bottom .types .single-type .type-icon {
+          background: #3eb575;
+          border-radius: 50%;
+          width: 50rpx;
+          height: 50rpx;
+          text-align: center;
+}
+.statistics .bottom .types .single-type .type-icon ._i {
+            line-height: 50rpx;
+            color: white;
+}
+.statistics .bottom .types .single-type .type-text {
+          margin-left: 10rpx;
+          width: 100rpx;
+}
+.statistics .bottom .types .single-type .type-percent {
+          color: #878787;
+          font-size: 22rpx;
+          margin-left: 10rpx;
+          min-width: 60rpx;
+}
+.statistics .bottom .types .single-type .type-line {
+          width: 200rpx;
+          height: 14rpx;
+          border-radius: 7rpx;
+          background: #e5e5e5;
+          overflow: hidden;
+          margin-right: 10rpx;
+}
+.statistics .bottom .types .single-type .type-line .green-line {
+            width: 100rpx;
+            height: 14rpx;
+            background: #3eb575;
+}
+.statistics .bottom .types .single-type .money {
+          font-weight: bold;
+          font-size: 24rpx;
+}
+

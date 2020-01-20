@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 1605316 */
+  src: url('https://at.alicdn.com/t/font_1605316_jzesxneew5s.eot');
+  src: url('https://at.alicdn.com/t/font_1605316_jzesxneew5s.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_1605316_jzesxneew5s.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_1605316_jzesxneew5s.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_1605316_jzesxneew5s.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_1605316_jzesxneew5s.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-editor:before {
+  content: "\e6f6";
+}
+
+.icon-auto:before {
+  content: "\e745";
+}
+
+.icon-form:before {
+  content: "\e753";
+}
+
+.icon-integral:before {
+  content: "\e754";
+}
+
+.icon-suggest:before {
+  content: "\e767";
+}
+
+.icon-trust:before {
+  content: "\e76a";
+}
+
+.icon-discounts:before {
+  content: "\e771";
+}
+

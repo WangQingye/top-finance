@@ -1,0 +1,270 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+@font-face {
+  font-family: 'iconfont';  /* project id 1605316 */
+  src: url('https://at.alicdn.com/t/font_1605316_jzesxneew5s.eot');
+  src: url('https://at.alicdn.com/t/font_1605316_jzesxneew5s.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_1605316_jzesxneew5s.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_1605316_jzesxneew5s.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_1605316_jzesxneew5s.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_1605316_jzesxneew5s.svg#iconfont') format('svg');
+}
+.iconfont.data-v-95494bfe {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-editor.data-v-95494bfe:before {
+  content: "\E6F6";
+}
+.icon-auto.data-v-95494bfe:before {
+  content: "\E745";
+}
+.icon-form.data-v-95494bfe:before {
+  content: "\E753";
+}
+.icon-integral.data-v-95494bfe:before {
+  content: "\E754";
+}
+.icon-suggest.data-v-95494bfe:before {
+  content: "\E767";
+}
+.icon-trust.data-v-95494bfe:before {
+  content: "\E76A";
+}
+.icon-discounts.data-v-95494bfe:before {
+  content: "\E771";
+}
+.font-small.data-v-95494bfe {
+  font-size: 30rpx;
+}
+.font-big.data-v-95494bfe {
+  font-size: 54rpx;
+}
+.font-middle.data-v-95494bfe {
+  font-size: 40rpx;
+}
+.color-green.data-v-95494bfe {
+  color: #3eb575;
+}
+.line.data-v-95494bfe {
+  width: 100%;
+  height: 16rpx;
+  background: #fafafa;
+}
+.flex-between.data-v-95494bfe {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.full-button.data-v-95494bfe {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 30rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  background: #3eb575;
+  font-size: 32rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color: white;
+}
+.add-detail.data-v-95494bfe {
+  background: white;
+  padding: 40rpx;
+  border-radius: 20rpx 20rpx 0 0;
+}
+.add-detail .top.data-v-95494bfe {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.add-detail .top .option.data-v-95494bfe {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: 220rpx;
+}
+.add-detail .top .option .single.data-v-95494bfe {
+        text-align: center;
+        width: 106rpx;
+        height: 60rpx;
+        line-height: 60rpx;
+        font-size: 26rpx;
+        border-radius: 30rpx;
+        background: #ededed;
+        color: #878787;
+}
+.add-detail .top .option .active.data-v-95494bfe {
+        color: #3eb575;
+        border: 1rpx solid #3eb575;
+        background: #ebf7f1;
+}
+.add-detail .top .choose-time.data-v-95494bfe {
+      width: 146;
+      height: 60rpx;
+      background: #ededed;
+      line-height: 60rpx;
+      text-align: center;
+      border-radius: 30rpx;
+      padding: 0 30rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.add-detail .top .choose-time ._i.data-v-95494bfe {
+        margin-left: 5rpx;
+}
+.add-detail .middle .money-input.data-v-95494bfe {
+    height: 146rpx;
+    line-height: 146rpx;
+    border-bottom: 1rpx solid #e3e3e3;
+}
+.add-detail .middle .money-input text.data-v-95494bfe {
+      font-size: 50rpx;
+      font-weight: bold;
+}
+.add-detail .middle .money-input input.data-v-95494bfe {
+      font-size: 80rpx;
+      margin-left: 20rpx;
+      font-weight: bold;
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      color: #151515;
+      height: 146rpx;
+      line-height: 146rpx;
+}
+.add-detail .middle .types.data-v-95494bfe {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    white-space: nowrap;
+    margin-top: 50rpx;
+}
+.add-detail .middle .types .type.data-v-95494bfe {
+      width: 114rpx;
+      display: inline-block;
+      font-size: 22rpx;
+      color: #878787;
+      text-align: center;
+}
+.add-detail .middle .types .type .back-font.data-v-95494bfe {
+        margin: 0 auto;
+        margin-bottom: 10rpx;
+        width: 70rpx;
+        height: 70rpx;
+        border-radius: 50%;
+        lighting-color: 70rpx;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        background: #e3e3e3;
+        color: #878787;
+}
+.add-detail .middle .types .type .active.data-v-95494bfe {
+        background: #3eb575;
+        color: white;
+}
+.add-detail .bottom.data-v-95494bfe {
+    font-size: 26rpx;
+}
+.add-detail .bottom .tip.data-v-95494bfe {
+      font-size: 32rpx;
+      margin-top: 30rpx;
+      margin-bottom: 20rpx;
+}
+.add-detail .bottom input.data-v-95494bfe {
+      border-bottom: 1rpx solid #e3e3e3;
+      width: 100%;
+      height: 60rpx;
+      height: 60rpx;
+}
+.add-detail .add-type.data-v-95494bfe {
+    padding: 30rpx;
+    width: 500rpx;
+    height: 200rpx;
+    border-radius: 10rpx;
+    background: white;
+}
+.add-detail .add-type input.data-v-95494bfe {
+      border-bottom: 1rpx solid #e3e3e3;
+      height: 100rpx;
+      line-height: 100rpx;
+}
+

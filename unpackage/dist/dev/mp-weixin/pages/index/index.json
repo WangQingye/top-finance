@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "上作记账",
+  "navigationBarBackgroundColor": "#3eb575",
+  "usingComponents": {
+    "my-footer": "/components/footer",
+    "detail": "/components/detail",
+    "statistics": "/components/statistics",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "add-detail": "/components/add-detail"
+  }
+}
